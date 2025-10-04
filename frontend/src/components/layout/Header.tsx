@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
-import { User, LogOut, LogIn, UserPlus, LayoutDashboard, Palette, Briefcase, Contact } from "lucide-react";
+import { User, LogOut, LogIn, UserPlus, LayoutDashboard, Palette, Briefcase, Contact, FileText } from "lucide-react";
 import Image from "next/image";
 import { API_URL } from "@/utils/env";
 
@@ -38,6 +38,14 @@ const Header = () => {
           <nav className="flex items-center space-x-1 md:space-x-4">
             {isAuthenticated ? (
               <>
+                <Link
+                  href="/api/assets/users/6fb867c3-1eb3-4db1-9d24-06633e6df13c/resume"
+                  className="flex items-center text-white hover:text-primary-50 px-2 py-1 md:px-3 md:py-2 rounded-md text-sm font-medium transition"
+                  download
+                >
+                  <FileText className="mr-1 h-4 w-4" />
+                  <span className="hidden md:inline">Resume</span>
+                </Link>
                 <Link
                   href="/dashboard"
                   className="flex items-center text-white hover:text-primary-50 px-2 py-1 md:px-3 md:py-2 rounded-md text-sm font-medium transition"
