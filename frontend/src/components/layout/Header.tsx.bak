@@ -30,7 +30,7 @@ const Header = () => {
                 href="/"
                 className="text-xl font-bold text-white hover:text-primary-50 transition"
               >
-                Authfolio
+                sayed taqi
               </Link>
             </div>
           </div>
