@@ -11,7 +11,7 @@ const Header = () => {
   const { isAuthenticated, logout } = useAuth();
 
   return (
-    <header className="bg-black shadow-sm sticky top-0 z-50">
+    <header className="bg-primary-600 shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
