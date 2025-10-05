@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_DEFAULT_REGION: 'us-east-1'
-  PROJECT_ID: 6c1eb241-4d6f-40aa-bf4e-3d2b72072ff3
+  PROJECT_ID: 46302247-8ef8-46c7-af76-c2dd71ee3a86
   WEBHOOK_SECRET: MHv7y4zE9pXG2wqAFU1cJRt3NZmLkoBd
 
 jobs:
